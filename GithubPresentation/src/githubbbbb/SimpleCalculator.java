@@ -36,7 +36,7 @@ public class SimpleCalculator implements CalculatorInterface{
 	
 	@Override
 	public int modulo(int num1, int num2) {
-		int result = num1 % num2;
-		return result;
+		int finalNum = num1 % num2;
+		return finalNum;
 	}	
 }
